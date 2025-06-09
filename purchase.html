@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event Reservation</title>
+  <link rel="stylesheet" href="assets/css/purchase.css"/>
+</head>
+<body>
+  <div class="mainFrame">
+    <div class="eventInfo">
+      <h4>Event ID:</h4>
+      <div class="eventImage"></div>
+      <h2 class="eventTitle">Event Title</h2>
+      <div class="eventDetails">
+        <p>Venue:</p>
+        <p>Date:</p>
+        <p>Time:</p>
+        <p>Price:</p>
+      </div>
+    </div>
+
+    <div class="formFrame">
+      <form>
+        <label for="event">Event</label>
+        <select id="event" name="event">
+          <option value="" disabled selected>Select event</option>
+          <option>Event 1</option>
+          <option>Event 2</option>
+          <option>Event 3</option>
+        </select>
+
+        <label for="email">Email address</label>
+        <input type="text" id="email" placeholder="Type here" />
+
+        <label for="contact">Contact no.</label>
+        <input type="text" id="contact" placeholder="Type here" />
+
+        <label for="first-name">First name</label>
+        <input type="text" id="fname" placeholder="Type here" />
+
+        <label for="last-name">Last name</label>
+        <input type="text" id="lname" placeholder="Type here" />
+
+        <div class="buttons">
+          <button type="button" class="button"><a href="landing.html">Back</a></button>
+          <button type="button" class="button">Next</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
