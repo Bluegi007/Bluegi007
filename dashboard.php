@@ -49,3 +49,16 @@ include 'db.php';
 </html>
 
 <?php $conn->close(); ?>
+
+
+      .logout-btn {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #205522;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .logout-btn:hover {
+            background: #163d18;
+        }
